@@ -1,0 +1,13 @@
+{
+  "name": "floral-gl",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "iteration-1",
+    "iteration-2"
+  ],
+  "scripts": {
+    "dev:1": "npm run dev --workspace=iteration-1",
+    "dev:2": "npm run dev --workspace=iteration-2"
+  }
+}

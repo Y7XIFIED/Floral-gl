@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Nasalization Rg';
+    src: url('./assets/fonts/Nasalization_Rg.otf') format('opentype');
+}
+
+html, body {
+    font-family: 'Nasalization Rg', sans-serif;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    font-family: inherit;
+}
+
+.container {
+    position: relative;
+}
+
+canvas {
+    display: block;
+}
+
+.name {
+    font-family: 'Nasalization Rg', sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0 0 3px #ffffff;
+    user-select: none;
+    pointer-events: none;
+}
+
+.name span {
+    background-color: transparent;
+}
+
+.render-toggle {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    font-family: 'Nasalization Rg', sans-serif;
+    font-size: 15px;
+    text-shadow: 0 0 4px #ffffff;
+    user-select: none;
+    padding: 0 0 15px 20px;
+    cursor: pointer;
+    text-decoration: underline;
+}

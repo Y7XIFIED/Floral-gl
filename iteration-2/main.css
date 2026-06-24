@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Nasalization';
+    src: url('./assets/fonts/Nasalization Rg.otf') format('opentype');
+}
+
+html, body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nasalization', sans-serif;
+    text-transform: uppercase;
+}
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+}
+.controls-container {
+    display: flex;
+    gap: 15px;
+    margin: 0 0 25px 25px;
+    z-index: 1;
+}
+
+.clean-btn, .save-btn {
+    font-size: 13px;
+    color: white;
+    user-select: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+}
+
+.clean-btn:hover, .save-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clean-btn:active, .save-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.name {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+    text-shadow: 0 0 5px #000000;
+    user-select: none;
+    pointer-events: none;
+    transition: opacity 1.5s ease-out;
+}
+
+.name.fade-out {
+    opacity: 0;
+}
+
+@media all and (min-width: 640px) {
+    .name {
+        font-size: 45px
+    }
+}
+
+.dev-tag {
+    position: fixed;
+    bottom: 15px;
+    right: 25px;
+    font-size: 15px;
+    color: white;
+    text-shadow: 0 0 10px #000000;
+    user-select: none;
+    opacity: 0.5;
+    z-index: 1;
+}
