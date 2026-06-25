@@ -7,7 +7,7 @@
 Welcome to the **Floral GL** project repository! Get ready to be amazed by a collection of interactive, WebGL-powered visual experiments that bring dynamic, blooming floral patterns right to your browser. We are exploring the awesome intersection of creative coding, math, and super-fast web graphics. Dive in and watch the flowers bloom!
 
 ## 🚀 Live Website
-Experience the fully interactive website live here: [Iteration 1](https://floral-gl.vercel.app/) | [Iteration 2](https://webgl-flowers-iwzytj4qk-yugank.vercel.app)
+Experience the fully interactive website live here: [Iteration 1](https://floral-gl.vercel.app/) | [Iteration 2](https://webgl-flowers.vercel.app/)
 
 ## Project Structure
 
