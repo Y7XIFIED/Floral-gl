@@ -1,6 +1,13 @@
-# Floral GL
+<h3 align="center"><b>FLORAL GL</b></h3>
 
-Welcome to the **Floral GL** project repository. This collection showcases a series of interactive, WebGL-based visual experiments that render dynamic, blooming floral patterns directly within the browser. The project is designed to explore the intersection of creative coding, mathematics, and performant web graphics.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,vite" />
+</p>
+
+Welcome to the **Floral GL** project repository! Get ready to be amazed by a collection of interactive, WebGL-powered visual experiments that bring dynamic, blooming floral patterns right to your browser. We are exploring the awesome intersection of creative coding, math, and super-fast web graphics. Dive in and watch the flowers bloom!
+
+## 🚀 Live Website
+Experience the fully interactive website live here: [Iteration 1](https://floral-gl.vercel.app/) | [Iteration 2](https://webgl-flowers-iwzytj4qk-yugank.vercel.app)
 
 ## Project Structure
 
@@ -9,21 +16,7 @@ This repository is structured as an NPM workspace containing multiple distinct i
 - **`iteration-1`**: The inaugural implementation, focusing on interactive bloom animations triggered by user input.
 - **`iteration-2`**: A refined approach offering alternative rendering techniques and visual aesthetics.
 
----
-
-## Live Deployments
-
-Experience the projects directly in your browser:
-
-### Iteration 1
-[**View Live Deployment**](https://floral-gl.vercel.app/)
-
 <video src="./iteration-1/preview.mp4" controls="controls" muted="muted" autoplay="autoplay" loop="loop" style="max-height: 500px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-top: 10px;"></video>
-
-### Iteration 2
-[**View Live Deployment**](https://webgl-flowers-iwzytj4qk-yugank.vercel.app)
-
----
 
 ## Local Development
 
@@ -51,6 +44,4 @@ npm run dev:1
 npm run dev:2
 ```
 
----
-
-*Authored and Maintained by Y7XIFIED.*
+<div align="center"><p>Y7XIFIED</p></div>
