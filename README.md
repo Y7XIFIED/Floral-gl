@@ -18,8 +18,8 @@ Interact dynamically with your mouse or touch to explore the visual effects! Mov
 ### Setup Instructions
 1. Clone the repository:
 ```bash
-git clone https://github.com/Y7XIFIED/Floral-gl.git
-cd Floral-gl
+git clone https://github.com/Y7XIFIED/Floral-Gl.git
+cd Floral-Gl
 ```
 2. Install the package dependencies:
 ```bash
@@ -32,7 +32,7 @@ npm run dev
 
 ## 📂 Project Structure
 ```text
-Floral-gl/
+Floral-Gl/
 ├── iteration-1
 │   ├── .gitignore
 │   ├── .vercel
