@@ -1,4 +1,4 @@
-<h3 align="center"><b>Floral-Gl</b></h3>
+<h3 align="center"><b>Floral-GL</b></h3>
 
 <p align="center"><img src="https://skillicons.dev/icons?i=html,css,js" /></p>
 
@@ -18,8 +18,8 @@ Interact dynamically with your mouse or touch to explore the visual effects! Mov
 ### Setup Instructions
 1. Clone the repository:
 ```bash
-git clone https://github.com/Y7XIFIED/Floral-Gl.git
-cd Floral-Gl
+git clone https://github.com/Y7XIFIED/Floral-GL.git
+cd Floral-GL
 ```
 2. Install the package dependencies:
 ```bash
@@ -32,7 +32,7 @@ npm run dev
 
 ## 📂 Project Structure
 ```text
-Floral-Gl/
+Floral-GL/
 ├── iteration-1
 │   ├── .gitignore
 │   ├── .vercel
