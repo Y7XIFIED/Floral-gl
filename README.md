@@ -1,5 +1,7 @@
 <h3 align="center"><b>FLORAL-GL</b></h3>
 
+<p align="center"><img src="https://skillicons.dev/icons?i=html,css,js" /></p>
+
 
 ## 🚀 Live Website
 Experience the fully interactive website live here:
@@ -67,7 +69,6 @@ Floral-gl/
 ```
 
 ## 💻 Tech Stack
-<p align="center"><img src="https://skillicons.dev/icons?i=html,css,js" /></p>
 
 - **HTML5 & CSS3**: Structural vectors and custom styling variables.
 - **JavaScript (ES6)**: Core logic and interactions.
